@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-from configure.H5device import *
-from configure.H5device import BaseCase
 import sys
 from selenium import webdriver
 import time
@@ -10,7 +8,7 @@ import unittest
 
 # 日志
 class test_01_Search(BaseCase):
-    logging.info(sys._getframe().f_code.co_filename.center(100, '='))
+
 
 
     #首页搜索
@@ -40,14 +38,6 @@ class test_01_Search(BaseCase):
 
 
 
-
-
-
-    #点击登录按钮
-    #def test_02_login_L(self):
-#        driver.find_element_by_xpath("//*[@id='uniq22']/header/a[2]").click()
-        #self.assertIsNotNone(self.find_element("//*[@id='uniq22']/header/a[2]"), '无定位按钮,定位失败,Fail')
-        time.sleep(4)
 
 
 
