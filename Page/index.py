@@ -10,7 +10,7 @@ class Index(Base):
     search_input = Location("搜索内容输入框", "#sb_form_q")
 
     def search_dragonball_super(self):
-        self.driver.send(self.search_input, "龙珠超")
+        self.driver.send(self.search_input, "龙珠超人")
         self.driver.click(self.search)
 
     # def close_menu(self):
